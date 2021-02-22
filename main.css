@@ -1,0 +1,42 @@
+body {
+  margin: 0em;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ede0d4;
+  display: grid;
+}
+
+.header {
+  padding: 5em;
+}
+
+.header svg {
+  position: relative;
+}
+
+.menu {
+  width: 5.8em;
+  height: 5.8em;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ede0d4;
+  right: 6%;
+  top: 3.5%;
+}
+
+.boarder {
+  position: absolute;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  border: 4px #ad130e;
+  border-style: solid;
+  right: 6%;
+  top: 3.5%;
+  display: grid;
+  place-items: center;
+}
+
+.boarder i {
+  color: #ad130e;
+}
